@@ -1,0 +1,232 @@
+                                /* FirstPageCSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+}
+.navbar h1{
+    margin-left: 70px;
+    color: #424242;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar span{
+    color: #00A5EC;
+}
+.container{
+    background-color: #f7f7f7;
+    height: 830px;
+    position: relative;
+}
+.boxs{
+    margin-left: 280px;
+    position: relative;
+    top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.box{
+    height: 300px;
+    background-color: white;
+    width: 300px;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+.box:hover{
+    box-shadow: 1px 1px 15px #cfcdcd;
+}
+.container .add-task{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 990px;
+    top: 40px;
+    align-items: center;
+}
+.container .add-task h3{
+    margin-left: 10px;
+    color: #424242;
+}
+.box{
+    font-family: 'Roboto', sans-serif;
+}
+.box h3{
+    color: #00A5EC;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.box .line{
+    border-bottom: 2px solid #EDEDED;
+    margin-bottom: 20px;
+}
+.box label{
+    color: #424242;
+    margin-left: 10px;
+}
+.checkboxs .firstcheckbox{
+    text-decoration: line-through;
+    color: #8c8a8a;
+}
+.checkboxs .marginbox{
+    margin-left: -10px;
+}
+.box .checkboxs{
+    display: flex;
+    row-gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 150px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.box .bg{
+    position: absolute;
+    top: 134px;
+    left: 21px;
+    height: 21px;
+    width: 21px;
+    border-radius: 3px;
+    border: 1px solid #EDEDED;
+    background-color: #EDEDED;
+}
+.bgbox2{
+    position: relative;
+    top: 40px;
+    right: 20px;
+    height: 21px;
+    width: 21px;
+    background-color: #EDEDED;
+}
+.checkboxs input[type-checkbox]{
+    background-color: #424242;
+}
+.box input{
+    align-items: center;
+    margin: 0px 0 0 20px;
+    height: 20px;
+    width: 20px;
+}
+.box .checkbox2{
+    width: 210px;
+    margin-right: -120px;
+}
+                                /* SecondPageCSS */
+
+.add-container{
+    position: absolute;
+    top: 0px;
+    height: 920px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}                    
+.centerbox{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 320px;
+    right: 540px;
+    height: 250px;
+    width: 430px;
+    border-radius: 15px;
+    border: 1px solid #cfcdcd;
+    background-color: white;
+}
+.centerbox h3{
+    padding: 15px 0 15px 20px;
+    font-size: 1.4rem;
+    color: #424242;
+}
+.centerbox .x{
+    color: #8c8a8a;
+    margin-left: 210px;
+    font-size: 1.5rem;
+}
+.centerbox .line{
+    border-bottom: 1px solid #EDEDED;
+}
+.centerbox input{
+    margin: 30px 17px;
+    width: 390px;
+    border: 2px solid #F7F7F7;
+    background-color: #F7F7F7;
+    height: 40px;
+}
+.centerbox input::placeholder{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.centerbox button{
+    height: 45px;
+    width: 170px;
+    margin-right: 20px;
+    float: right;
+    background-color: #00A5EC;
+    color: #ffffff;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.centerbox .plus{
+    font-size: 1.4rem;
+    margin-right: 2px;
+}
+                                /* ThirdPageCSS */
+
+.back{
+    display: flex;
+    position: absolute;
+    top: 55px;
+    font-size: 1.3rem;
+    column-gap: 10px;
+    left: 515px;
+    font-family: 'Roboto', sans-serif;
+    color: #424242;
+}                 
+.back img{
+    height: 30px;
+    width: 30px;
+}
+.centerbox input::placeholder{
+    color: #858585;
+}           
+.container .add-taskpage2{
+    position: absolute;
+    left: 770px;
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+    column-gap: 10px;
+    font-size: 1.4rem;
+    top: 40px;
+    display: flex;
+    align-items: center;
+}   
+.page2box{
+    position: absolute;
+    top: 255px;
+    left: 34%;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+}
+.page2checkbox{
+    width: 180px;
+}
+.page2checkbox .page2bg{
+    position: absolute;
+    top: 135px;
+    left: 20px;
+}
+.page2checkbox label{
+    margin-left: 30px;
+}
