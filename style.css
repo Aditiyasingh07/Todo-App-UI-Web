@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Roboto', sans-serif;
     background-color: #f7f7f7;
 }
 .navbar{
@@ -23,22 +24,23 @@ body{
     color: #00A5EC;
 }
 .container{
+    margin-top: 150px;
     height: 830px;
     position: relative;
 }
 .boxs{
     margin-left: 280px;
-    position: relative;
     top: 140px;
     display: flex;
+    justify-content: start;
     flex-wrap: wrap;
-    column-gap: 20px;
-    row-gap: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 .box{
     height: 300px;
     background-color: white;
-    width: 300px;
+    width: 320px;
     border: 2px solid #EDEDED;
     border-radius: 10px;
     transition: all .3s ease-in-out;
@@ -46,26 +48,25 @@ body{
 .box:hover{
     box-shadow: 1px 1px 15px #cfcdcd;
 }
-.container .add-task{
+.add-task{
+    position: relative;
+    top: 50px;
+    right: 265px;
+    float: right;
     display: flex;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
-    position: absolute;
-    left: 990px;
-    top: 40px;
     align-items: center;
+}
+.add-task span{
+    font-weight: bold;
 }
 .container .add-task h3{
     margin-left: 10px;
     color: #424242;
 }
-.box{
-    font-family: 'Roboto', sans-serif;
-}
 .box h3{
     color: #00A5EC;
     margin: 20px;
-    font-family: 'Roboto', sans-serif;
 }
 .box .line{
     border-bottom: 2px solid #EDEDED;
@@ -91,16 +92,6 @@ body{
     padding-bottom: 30px;
     margin-top: 30px;
 }
-/* .box .bg{
-    position: absolute;
-    top: 134px;
-    left: 21px;
-    height: 21px;
-    width: 21px;
-    border-radius: 3px;
-    border: 1px solid #EDEDED;
-    background-color: #EDEDED;
-} */
 .checkboxs input[type-checkbox]{
     background-color: #424242;
 }
@@ -116,6 +107,9 @@ body{
 }
                                 /* SecondPageCSS */
 
+.page2container{
+    margin-top: 45px;
+}
 .add-container{
     position: absolute;
     top: 0px;
@@ -124,7 +118,6 @@ body{
     background: rgba(0, 0, 0, 0.7);
 }                    
 .centerbox{
-    font-family: 'Roboto', sans-serif;
     position: absolute;
     top: 320px;
     right: 540px;
@@ -182,7 +175,6 @@ body{
     font-size: 1.3rem;
     column-gap: 10px;
     left: 515px;
-    font-family: 'Roboto', sans-serif;
     color: #424242;
 }                 
 .back img{
@@ -196,7 +188,6 @@ body{
     position: absolute;
     left: 770px;
     color: #424242;
-    font-family: 'Roboto', sans-serif;
     column-gap: 10px;
     font-size: 1.4rem;
     top: 40px;
