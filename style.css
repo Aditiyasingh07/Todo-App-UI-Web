@@ -105,6 +105,10 @@ body{
     width: 210px;
     margin-right: -120px;
 }
+.page1addtask{
+    position: relative;
+    top: -100px;
+}
                                 /* SecondPageCSS */
 
 .page2container{
@@ -183,7 +187,10 @@ body{
 }
 .centerbox input::placeholder{
     color: #858585;
-}           
+}      
+.page3container{
+    bottom: 110px;
+}     
 .container .add-taskpage2{
     position: absolute;
     left: 770px;
